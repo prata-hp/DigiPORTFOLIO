@@ -1,0 +1,63 @@
+{
+  "name": "DigiPORTFOLIO",
+  "bucket": "DigiPORTFOLIO",
+  "preset": "eleventy",
+  "env": "production",
+  "prefix": "20241123053528",
+  "not-first-run": true,
+  "function": {
+    "id": 32665,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31387,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1732347632,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732345604,
+    "name": "DigiPORTFOLIO",
+    "domain_name": "rp2sae4461.map.azionedge.net",
+    "url": "https://rp2sae4461.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 167473,
+      "origin-key": "97b36e3c-aeaa-4244-8cf9-e79a2d497bb2",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 324053,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 324054,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 324055,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      },
+      {
+        "id": 324056,
+        "name": "Redirect to index.html for Subpaths",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
