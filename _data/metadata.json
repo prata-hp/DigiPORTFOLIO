@@ -1,7 +1,7 @@
 {
-  "title": "John Doe",
-  "url": "https://myurl.com/",
-  "description": "Photographer and Web Designer",
+  "title": "Hanumant pratap",
+  "url": "https://https://www.linkedin.com/in/hanumant-pratap-869534330//",
+  "description": "I am a Learner",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
@@ -9,7 +9,7 @@
     "id": "https://myurl.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": " Hanumant Pratap ",
+    "email": "prataphanumant02@gmail.com"
   }
 }
